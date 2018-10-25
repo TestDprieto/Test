@@ -5,8 +5,8 @@
     <confirmationTokenRequired>false</confirmationTokenRequired>
     <label>VFPage_2</label>
     <packageVersions>
-        <majorNumber>1</majorNumber>
-        <minorNumber>7</minorNumber>
-        <namespace>sf_com_apps</namespace>
+        <majorNumber>11</majorNumber>
+        <minorNumber>0</minorNumber>
+        <namespace>copado</namespace>
     </packageVersions>
 </ApexPage>
