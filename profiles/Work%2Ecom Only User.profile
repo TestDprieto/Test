@@ -4601,6 +4601,10 @@
     <layoutAssignments>
         <layout>WorkPerformanceCycle-Performance Cycle Layout - Winter %2716</layout>
     </layoutAssignments>
+    <pageAccesses>
+        <apexPage>VFPage_2</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>CO_3__c.CO3_RT1</recordType>
