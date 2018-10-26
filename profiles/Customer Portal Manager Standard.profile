@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer Portal Manager Standard</fullName>
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
         <default>false</default>
@@ -852,6 +853,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>CustomObject_2__c.CO2_Picklist1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Event.Description</field>
         <readable>true</readable>
@@ -1189,11 +1195,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Order.ContractName</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Order.CustomerAuthorizedById</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4477,6 +4478,13 @@
         <recordType>CustomObject_1__c.RecordType_2</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>CustomObject_2__c-CustomObject_2 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CustomObject_2__c-CustomObject_2 Layout</layout>
+        <recordType>CustomObject_2__c.CO2_RT_1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>DandBCompany-D%26B Company Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4647,6 +4655,24 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CustomObject_1__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CustomObject_2__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>false</allowDelete>
         <allowEdit>false</allowEdit>
@@ -4717,6 +4743,11 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>CustomObject_1__c.RecordType_2</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>CustomObject_2__c.CO2_RT_1</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
