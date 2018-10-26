@@ -384,6 +384,16 @@
         <label>Platinum and Gold SLA Customers</label>
     </listViews>
     <recordTypes>
+        <fullName>RT_1</fullName>
+        <active>true</active>
+        <label>RT_1</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>RT_2</fullName>
+        <active>true</active>
+        <label>RT_2</label>
+    </recordTypes>
+    <recordTypes>
         <fullName>RT_KAR_1</fullName>
         <active>true</active>
         <label>RT KAR #1</label>

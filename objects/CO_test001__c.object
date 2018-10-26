@@ -52,13 +52,13 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <gender>Feminine</gender>
-    <label>CO_3</label>
+    <gender>Masculine</gender>
+    <label>CusObj_test001</label>
     <nameField>
-        <label>CO_3 Name</label>
+        <label>CO_test001 Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>COs_3</pluralLabel>
+    <pluralLabel>CusObj_test001</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
