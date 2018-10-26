@@ -41,20 +41,21 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>CompactLayout2</compactLayoutAssignment>
     <compactLayouts>
-        <fullName>Compact_Layout1</fullName>
+        <fullName>CompactLayout2</fullName>
+        <fields>CO2_Picklist1__c</fields>
         <fields>CreatedById</fields>
-        <fields>LastModifiedById</fields>
         <fields>Name</fields>
+        <fields>LastModifiedById</fields>
         <fields>OwnerId</fields>
-        <fields>picklist_1__c</fields>
         <fields>RecordTypeId</fields>
-        <label>Compact Layout1</label>
+        <label>CompactLayout2</label>
     </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
@@ -62,9 +63,9 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>picklist_1__c</fullName>
+        <fullName>CO2_Picklist1__c</fullName>
         <externalId>false</externalId>
-        <label>picklist_1</label>
+        <label>CO2_Picklist1</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
@@ -92,22 +93,27 @@
                     <default>false</default>
                     <label>4</label>
                 </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <gender>Masculine</gender>
-    <label>CustomObject_1</label>
+    <gender>Feminine</gender>
+    <label>CustomObject_2</label>
     <nameField>
-        <label>CustomObject_1 Name</label>
+        <label>CustomObject_2 Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>CustomObjects_1</pluralLabel>
+    <pluralLabel>CustomObjects_2</pluralLabel>
     <recordTypes>
-        <fullName>RecordType_1</fullName>
+        <fullName>CO2_RT_1</fullName>
         <active>true</active>
-        <label>RecordType_1</label>
+        <label>CO2_RT_1</label>
         <picklistValues>
-            <picklist>picklist_1__c</picklist>
+            <picklist>CO2_Picklist1__c</picklist>
             <values>
                 <fullName>1</fullName>
                 <default>false</default>
@@ -124,28 +130,8 @@
                 <fullName>4</fullName>
                 <default>false</default>
             </values>
-        </picklistValues>
-    </recordTypes>
-    <recordTypes>
-        <fullName>RecordType_2</fullName>
-        <active>true</active>
-        <label>RecordType_2</label>
-        <picklistValues>
-            <picklist>picklist_1__c</picklist>
             <values>
-                <fullName>1</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>2</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>3</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>4</fullName>
+                <fullName>5</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
