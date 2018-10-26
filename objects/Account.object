@@ -1041,6 +1041,11 @@
         <active>true</active>
         <label>RT KAR #2</label>
     </recordTypes>
+    <recordTypes>
+        <fullName>RT_KAR_2</fullName>
+        <active>true</active>
+        <label>RT KAR #2</label>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
