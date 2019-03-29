@@ -77,6 +77,16 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Account_operation__c</fullName>
+        <externalId>false</externalId>
+        <label>Account operation</label>
+        <length>15</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Active__c</fullName>
         <externalId>false</externalId>
         <label>Active</label>
